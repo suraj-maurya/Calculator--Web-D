@@ -1,0 +1,195 @@
+body{
+  background-color: black;
+    color: aqua;
+    cursor:default;
+
+
+}
+.container{
+    width: 17rem;
+    margin: auto;
+    top:6rem;
+    position: relative;
+    
+}
+.triangle {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-bottom: 20rem solid rgb(80, 224, 40);
+  }
+  #num{
+    color: rgb(2, 247, 239);
+    width: 15rem;
+    height: 14.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 80px;
+    left: -120px;
+    z-index: 3;
+
+}
+.Box{
+    color: black;
+    padding-top: 7px;
+      width: 2rem;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid rgb(67, 25, 25);
+    background-color: rgb(20, 255, 255);
+    overflow: visible;
+    cursor: pointer;
+    z-index: 7;
+  }
+  .Box:hover{
+    background-color: rgb(109, 63, 63);
+    color: aliceblue;
+  }
+  #num div:nth-child(1){
+    margin-right: 80px;
+    margin-left: 100px;
+  }
+  #num div:nth-child(2){
+    margin-right: 10px;
+    margin-left: 70px;
+  }
+  #num div:nth-child(4){
+      margin-left:40px;
+    margin-right: 10px;
+  }
+
+  #trig_1{
+    position: relative;
+    top: -250px;
+    left: 45px;
+    transform: rotate(64deg);
+    z-index: 2;
+  }
+  #trig_2{
+    position: relative;
+    top: -571px;
+    left: 30px;
+    transform: rotate(64deg);
+
+  }
+  .rec{
+width: 20rem;
+position: relative;
+top: -660px;
+z-index: 3;
+height: 9.3rem;
+background-color: black;
+}
+.oper{
+    width: 5rem;
+    transform: rotate(-64deg);
+}
+.oper_Box{
+    font-weight: bolder;
+
+    width: 1.2rem;
+    height: 1rem;
+    padding-top: 2px;
+  }
+  .oper div:nth-child(1){
+    position: relative;
+    left: -16px;
+    top: 3px;
+  }
+  .oper div:nth-child(2){
+    position: relative;
+    left: -5px;
+    top: -7px;
+  }
+  .oper div:nth-child(3){
+    position: relative;
+    top: -69px;
+    left: 7px;
+    padding-top: 0px;
+    padding-bottom:1.5px ;
+  }
+  .oper div:nth-child(4){
+    position: relative;
+    top: -79px;
+    left: 17px;
+  }
+  #result_box {
+    transform: rotate(-53deg);
+    z-index: 5;
+    width: 2rem;
+    position: relative;
+    top: 148px;
+    left: -140px;
+    overflow: visible;
+  
+  
+
+
+  }
+  .re_box{
+   
+    padding-top: 3px;
+      width: 1.5rem;
+    height: 1.2rem;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid rgb(67, 25, 25);
+    background-color: rgb(20, 255, 255);
+    cursor: pointer;
+    
+  }
+  #result_box div:nth-child(1){
+    position: relative;
+    top: 8px;
+    left: -27px;
+
+
+  }
+  #result_box div:nth-child(2){
+    position: relative;
+    top: -15px;
+    left: 5px;
+    width: 1.5rem;
+    margin: 10px;
+  }
+.display{
+    width: 17.5rem;
+    border: 4px solid rgb(131, 240, 8);
+    background-color: rgb(26, 149, 251);
+    height:2rem;
+    position: relative;
+    top: -1120px;
+    left: 1.4rem;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 7px; ;
+
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 15rem;
+    margin: auto;
+    border: 4px dotted rgb(41, 152, 84);
+    text-align: center;
+    position: relative;
+    top: -700px;
+    z-index: 3;
+    border-radius: 4px;
+    text-decoration: underline;
+    text-decoration-color: rgb(21, 248, 48);
+    /* padding: 4px; */
+        
+}
